@@ -1,0 +1,38 @@
+button {
+    background-color: #6553e9;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ccc;
+  }
+  button:active {
+    font-size: 1.2em;
+    color: #000;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  input:focus {
+    border-color: #00f;
+  }
+  input:valid { 
+    color: #080;
+  }
+  
+  /* Link styles */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f00;
+    text-decoration: underline;
+  }
+  a:active {
+    font-weight: bold;
+  }
+  
